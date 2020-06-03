@@ -14,8 +14,8 @@ import { LoadingController } from '@ionic/angular';
 })
 export class DukkanDetayPage {
   shopId: string;
-  shop: object;
-  user : object;
+  shop: any;
+  user : any;
   shopWork : string;
 
   constructor(public loadingController: LoadingController,public toastController: ToastController,public route: ActivatedRoute,public router:Router,public http: HttpClient,private alertController: AlertController) { 

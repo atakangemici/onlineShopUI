@@ -12,7 +12,7 @@ import { ToastController } from '@ionic/angular';
   styleUrls: ['tab3.page.scss']
 })
 export class Tab3Page {
-  public user : object;
+  public user : any;
   orderApproved : object;
   orders: object;
   orderDetailCheck : boolean;

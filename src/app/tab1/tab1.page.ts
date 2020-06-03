@@ -10,7 +10,7 @@ import { HttpClient,HttpHeaders } from '@angular/common/http';
 })
 export class Tab1Page {
   adresFiltresi : boolean;
-  tumDukkanlar : object;
+  tumDukkanlar : any;
 
   doRefresh(event) {
     this.http.get ( 'http://esnafimapi.azurewebsites.net/api/app/get_all_shops')

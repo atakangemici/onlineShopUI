@@ -11,6 +11,7 @@ import { AuthService } from '../auth.service'
 })
 export class Login {
   registerContent : boolean;
+  userData : any;
 
   constructor(private route: Router, public authService: AuthService) {
    

@@ -16,7 +16,7 @@ export class Tab2Page {
   totalPrice : number;
   shopId : number;
   orderCheck : boolean;
-  shop : object;
+  shop : any;
 
   constructor(public toastController: ToastController,public route: ActivatedRoute,public router:Router,public http: HttpClient,public alertController: AlertController) { 
   }

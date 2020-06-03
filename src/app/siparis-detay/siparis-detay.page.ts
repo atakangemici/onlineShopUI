@@ -16,7 +16,7 @@ export class SiparisDetayPage {
   shopName : string;
   totalPrice : number;
   orderCheck : boolean;
-  orderApproved : object;
+  orderApproved : any;
 
   constructor(public toastController: ToastController,public route: ActivatedRoute,public router:Router,public http: HttpClient,private alertController: AlertController) { 
     
